@@ -52,6 +52,28 @@ The dataset contains 5630 customer records with 20 features, including demograph
 - Evaluated using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC.
 - Analyzed confusion matrix and feature importance to interpret model results.
 
+## 📊 Visualizations
+
+![image](https://github.com/user-attachments/assets/7fb1d390-8186-4dfa-8a84-1a71fa9ef274)
+
+This heatmap visualizes the Pearson correlation coefficients between relevant features in a churn prediction dataset. A value close to 1 indicates a strong positive correlation, while a value near -1 indicates a strong negative correlation. Notably, Churn is moderately negatively correlated with Tenure (-0.35), suggesting that customers with longer tenure are less likely to churn. CouponUsed and OrderCount (0.75), as well as CouponUsed and DaySinceLastOrder (0.36), show strong to moderate positive correlations, indicating potential behavioral patterns. Interestingly, CashbackAmount has a modest positive correlation with Tenure (0.48), implying loyal customers may receive more cashback. These relationships help identify influential features for churn prediction.
+
+![image](https://github.com/user-attachments/assets/5cbea980-da50-485f-819e-9825714a8060)
+
+This set of bar plots presents the distribution of various categorical features in the dataset. Most users prefer to log in using a Mobile Phone, and City Tier 1 dominates the customer base. The majority of users are Male, and most are Married, with a notable portion being Single. In terms of payment, Debit Cards are the most preferred mode, followed by Credit Cards, while methods like Cash on Delivery and UPI are less popular. The most common product category ordered is Laptop & Accessories, followed by Mobile Phones, whereas Others and Grocery categories see less engagement. These distributions provide insight into customer demographics, preferences, and shopping behavior.
+
+![image](https://github.com/user-attachments/assets/cd85d387-fe09-4fbd-9212-40efe93a3357)
+
+This graph shows the training and validation loss curves over 50 epochs. The training loss (blue line) starts very high but drops sharply within the first few epochs and then continues to decrease gradually, indicating the model is learning effectively from the training data. The validation loss (orange line) also drops quickly and stabilizes at a low value early on, suggesting good generalization to unseen data. The close alignment and consistent downward trend of both curves indicate that the model is well-fitted without signs of overfitting or underfitting.
+
+![image](https://github.com/user-attachments/assets/a487b6be-ee39-451f-ac17-87c6e5ce96a8)
+
+This graph shows the training and validation loss curves over 50 epochs. The training loss (blue line) starts very high but drops sharply within the first few epochs and then continues to decrease gradually, indicating the model is learning effectively from the training data. The validation loss (orange line) also drops quickly and stabilizes at a low value early on, suggesting good generalization to unseen data. The close alignment and consistent downward trend of both curves indicate that the model is well-fitted without signs of overfitting or underfitting.
+
+![image](https://github.com/user-attachments/assets/dc9acd7c-8279-4449-a746-0c468835f603)
+
+This graph illustrates the training and validation accuracy over 50 epochs. The training accuracy (blue line) shows a steady increase, indicating that the model is learning and fitting the training data well. However, the validation accuracy (orange line) remains flat at around 81.4%, suggesting that while the model improves on the training set, it does not generalize better to unseen data after a certain point. This gap between training and validation accuracy indicates overfitting, where the model becomes too specialized to the training data and fails to improve performance on the validation set.
+
 ## 🛠️ Tools & Libraries
 
 | Tool / Library               | Description                                                                 |
@@ -66,4 +88,4 @@ The dataset contains 5630 customer records with 20 features, including demograph
 ## ▶️ How to Run
 Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ecommerce-churn-prediction.git
+   git clone https://github.com/namoklom/ecommerce-churn-prediction.git
