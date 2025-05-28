@@ -6,14 +6,22 @@
 |-----------------|-------------------|-----------------------------------------------|
 | Jason Emmanuel  | Data Scientist | [linkedin.com/in/jasoneml](https://www.linkedin.com/in/jasoneml/) |
 
+---
+
 ## 🚀 Project Overview
 This project focuses on predicting customer churn for one of Indonesia's largest e-commerce startups. By leveraging advanced data analytics and machine learning techniques, the goal is to build a predictive tool that anticipates whether a customer will remain loyal or churn. This enables the company to implement targeted retention strategies, optimize resources, and enhance overall customer satisfaction.
+
+---
 
 ## 🎯 Motivation
 Instead of waiting for customers to leave, the model helps proactively engage potentially churning customers with personalized offers or recommendations. It also helps maintain stock and service quality for loyal customers, ultimately driving business growth in a competitive market.
 
+---
+
 ## 📊 Dataset
 The dataset contains 5630 customer records with 20 features, including demographic information, app usage patterns, transaction history, and satisfaction scores.
+
+---
 
 ### 📝 Sample Features:
 - `CustomerID`
@@ -27,6 +35,8 @@ The dataset contains 5630 customer records with 20 features, including demograph
 - `CouponUsed`
 - `CashbackAmount`
 - … and more
+
+---
 
 ## 🛠️ Project Steps
 
@@ -52,7 +62,9 @@ The dataset contains 5630 customer records with 20 features, including demograph
 - Evaluated using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC.
 - Analyzed confusion matrix and feature importance to interpret model results.
 
-## 📊 Visualizations
+---
+
+## 📊 Results
 
 ![image](https://github.com/user-attachments/assets/7fb1d390-8186-4dfa-8a84-1a71fa9ef274)
 
@@ -70,6 +82,8 @@ This graph shows the training and validation loss curves over 50 epochs. The tra
 
 This graph shows the training and validation loss curves over 50 epochs. The training loss (blue line) starts very high but drops sharply within the first few epochs and then continues to decrease gradually, indicating the model is learning effectively from the training data. The validation loss (orange line) also drops quickly and stabilizes at a low value early on, suggesting good generalization to unseen data. The close alignment and consistent downward trend of both curves indicate that the model is well-fitted without signs of overfitting or underfitting.
 
+---
+
 ## 🛠️ Tools & Libraries
 
 | Tool / Library               | Description                                                                 |
@@ -80,6 +94,8 @@ This graph shows the training and validation loss curves over 50 epochs. The tra
 | scikit-learn, imblearn      | Preprocessing, encoding, scaling, and handling class imbalance              |
 | scikit-learn (models)       | Machine learning models (e.g., Logistic Regression, Random Forest, etc.)    |
 | scikit-learn.metrics        | Model evaluation using accuracy, precision, recall, F1-score, ROC-AUC       |
+
+---
 
 ## ▶️ How to Run
 Clone the repository:
